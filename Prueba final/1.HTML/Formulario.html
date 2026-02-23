@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISEÑA TU MERCEDES</title>
+    <link rel="stylesheet" href="../2.CSS/Formulario.css">
+    <link rel="stylesheet" href="../2.CSS/Header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <div id="cabecera">
+        <img src="../3.FOTOS/logo-mercedes.apng" id="logo">
+<div id="menudesplegable">
+<div id="el1"><a href="Index.html" id="inicio"><h3 style="color: white;">Inicio</h3></a></div>
+
+<div id="el2"><h3 style="color: white;">Opciones Mercedes</h3></a>
+    <ul class="submenu">
+            <li><a href="CLASES.html" style="color: white;">Clase S</a></li>
+            <li><a href="GLC.html" style="color: white;">GLC</a></li>
+            <li><a href="EQA.html" style="color: white;">EQA</a></li>
+            <li><a href="CLASEA.html" style="color: white;">Clase A</a></li>
+        </ul>
+</div>
+<div id="el3"><h3 style="color: white;">Informacion</h3>
+    <ul class="submenu2">
+            
+            <li><a href="Formulario.html" style="color: white;">Formulario</a></li>
+            <li><a href="../1.HTML/Informacion.html" style="color: white;">Video</a></li></div>
+        </ul>
+</div></div></div>  
+
+<fieldset>
+<h1>Formulario Mercedes-Benz</h1>
+<form method="post" action="">
+<label>Nombre: <br>
+<input type="text" name="Nombre" placeholder="" size="25">
+<br>
+<br></label>
+<label>Apellidos:<br>
+<input type="text" name="Apellidos" placeholder="" size="25">
+<br>
+<br></label>
+<label>Telefono: <br>
+<input type="text" name="Telefono" placeholder="" size="25">
+<br>
+<br></label>
+<label>Email:<br>
+<input type="text" name="Email" placeholder="" size="25">
+<br>
+<br></label>
+<label>Datos de interes:<br>
+<textarea class="gris" cols="30" rows="10" name="datos_interes">   
+</textarea>
+<br></label>
+<label>Selecciona los campos correspondientes:
+<br></label>
+<div>
+<input type="radio" name="sexo" value="masculino"> Hombre
+<input type="radio" name="sexo" value="femenino"> Mujer 
+<input type="radio" name="sexo" value="otro"> Otro </div>
+<br>
+<label>------------------------------------<br>
+    Opciones del coche <br>
+------------------------------------</label><br>
+<label>Color:  <select name="color">
+    <option value="Seleccione">Seleccione</option>
+    <option value="Negro">Negro</option>
+    <option value="Blanco">Blanco</option>
+    <option value="Gris">Gris</option>
+    <option value="Azul">Azul</option>
+    <br>
+    </select></label>
+    <br>
+<label>Modelo:  <select name="modelo">
+    <option value="Seleccione">Seleccione</option>
+    <option value="GLC">GLC</option>
+    <option value="R9">EQA</option>
+    <option value="Clase a">Clase A</option>
+    <option value="clase s">Clase S</option>
+    <br></select></label>
+    <br>
+<label>¿Deseas recibir nuestra información por correo electrónico?
+<br>
+<br>
+<input type="radio" name="eleccion" value="SI"><strong>Sí</strong>
+<input type="radio" name="eleccion" value="NO"><strong>No</strong>
+<input type="radio" name="eleccion" value="Más tarde"><strong>Más tarde</strong>
+<br>
+<br></label>
+
+<br>
+<br>
+<label><input class="blanco" type="submit" value="Enviar">
+<input class="blanco" type="reset" value="Reiniciar Formulario"></label>
+
+    </fieldset>
+</form>    
+</body>
+</html>
