@@ -1,0 +1,46 @@
+#video
+{
+    width: 100%;
+}
+#texto
+{
+    position: absolute;
+    top: 5%;
+    left: 38%;
+    color: white;
+}
+#texto1
+{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    text-align: center;
+    color: white;
+    width: 12%;
+    height: 15%;
+}
+#titulo
+{
+    position: absolute;
+    top: -50%;
+    left: 20%;
+    text-align: center;
+}
+#texto2
+{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    text-align: center;
+    color: white;
+    width: 12%;
+    height: 15%;
+}
+#titulo2
+{
+    position: absolute;
+    top: -50%;
+    left: 20%;
+    text-align: center;
+    width: 50%;
+}
