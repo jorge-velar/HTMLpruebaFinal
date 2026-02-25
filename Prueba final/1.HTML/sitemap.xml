@@ -5,6 +5,7 @@
    <inicio>
       <loc>https://n9.cl/blmug</loc>
       <changefreq>daily</changefreq>
+      <priority>1</priority>
    </inicio>
 
    <!-- Sección de Productos -->
@@ -13,12 +14,14 @@
       <loc>https://n9.cl/n91ry5</loc>
       <lastmod>2025-02-10</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
    </productos>
    <productos>
    <!--GLc-->
       <loc>https://n9.cl/f9apz</loc>
       <lastmod>2025-02-10</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
    </productos>
    <productos>
    <!--EQA-->
@@ -31,6 +34,7 @@
       <loc>https://n9.cl/fvnce</loc>
       <lastmod>2025-02-10</lastmod>
       <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
    </productos>
    
 
@@ -38,6 +42,7 @@
    <clientes>
       <loc>https://n9.cl/chcn5</loc>
       <lastmod>2025-02-01</lastmod>
+      <priority>0.5</priority>
    </clientes>
  
   <!-- Informacion-->
