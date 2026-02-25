@@ -35,12 +35,27 @@ div{
     margin-top: 10%;
 }
 body{
-background-image: url('../3.FOTOS/FORMULARIO/fondoFormulario.webp');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+    background-image: url('../3.FOTOS/FORMULARIO/fondoFormulario.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
 }
 textarea {
     resize: none;
 }
+#logo2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 20%;
+    animation: logo2 2s linear infinite;
+}
+@keyframes logo2{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
